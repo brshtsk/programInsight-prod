@@ -16,6 +16,8 @@
 ![image](https://github.com/user-attachments/assets/56c6ebcb-403b-4de3-b028-bb830f5898aa)
 
 Папка ProgramFiles содержит файлы для внутреннего устройства приложения, ее трогать не надо!
+
+В редких случаях при запуске может появиться ошибка "система не обнаружила ucrtbased.dll". Тогда необходимо установить на устройство [Visual Studio Build Tools](https://visualstudio.microsoft.com/ru/visual-cpp-build-tools/) и при установке включить компонент "C++ core features → Debugging Tools".
 ### Шаг 4. Выдать разрешения
 При запуске может появиться предупреждение от Microsoft Defender. Необходимо нажать на "Подробнее":
 
